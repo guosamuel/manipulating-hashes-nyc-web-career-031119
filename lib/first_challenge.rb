@@ -18,7 +18,7 @@ def first_challenge
   contacts.each do |person, data|
     data.each do |name, attribute|
       if attribute.is_a? Array
-        
+        attribute.delete_if
 
   #remember to return your newly altered contacts hash!
   contacts
